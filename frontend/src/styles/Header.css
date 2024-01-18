@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+.active {
+  background-color: lightskyblue;
+  /* background: linear-gradient(to right, #5d4157, #a8caba); */
+}
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(to right, #f0c27b, #4b1248);
+  /* background-color: transparent; */
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  position: sticky;
+  top: 0;
+  transition: all 3s ease-in-out;
+  z-index: 3;
+}
+
+.navigation .brand {
+  font-size: 2rem;
+  margin: 1rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+.navigation .brand span {
+  background: -webkit-linear-gradient(rgb(3, 145, 8), rgb(66, 66, 241));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.navigation .menu {
+  display: none;
+  position: absolute;
+  top: 0.75rem;
+  right: 0.5rem;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 2.25rem;
+  height: 2rem;
+  transition: 3s ease-in-out;
+}
+
+.navigation .menu span {
+  height: 0.4rem;
+  width: 100%;
+  background-color: black;
+  border-radius: 0.2rem;
+  transition: 3s ease-in-out;
+}
+.navigation ul {
+  display: flex;
+}
+.navigation ul li {
+  list-style-type: none;
+  padding: 5px;
+  margin: 5px;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  display: block;
+  color: black;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.navigation ul li a:not(.active):hover {
+  background-color: blue;
+  color: white;
+}
+
+@media (max-width: 480px) {
+  .navigation .menu {
+    display: flex;
+    transition: 0.5s ease-in;
+  }
+
+  .navigation {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .navigation ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 0.25rem;
+  }
+
+  .navigation ul.open {
+    display: flex;
+  }
+  .navigation ul li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .navigation ul li a {
+    margin: 0.2rem 0.5rem;
+  }
+}

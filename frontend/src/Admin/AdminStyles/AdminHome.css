@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Fasthand&display=swap");
+.main {
+  background-image: url("../../images/backgroundHome-2.jpg");
+  background-size: cover;
+  height: 125vh;
+  background-color: rgba(200, 100, 0, 0.5);
+  background-blend-mode: multiply;
+}
+
+.content {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: white;
+  padding: 50px;
+  position: relative;
+  top: 5rem;
+  font-size: 25px;
+}
+.content #h1 {
+  font-size: 4rem;
+  top: 10px;
+}
+.content button {
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  background: -webkit-linear-gradient(rgb(3, 145, 8), rgb(66, 66, 241));
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+.content span {
+  /* background: -webkit-linear-gradient(
+    rgba(147, 147, 237, 0.53),
+    rgb(52, 52, 255)
+  ); */
+  background: -webkit-linear-gradient(
+    rgba(232, 123, 99, 0.966),
+    rgba(241, 59, 4, 0.9)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.content .quote {
+  /* background: linear-gradient(to bottom right, #bc493c, #ecdab2); */
+  margin-top: 3rem;
+  padding: 2rem;
+  text-align: center;
+  /* font-family: "Cedarville Cursive", cursive; */
+  /* font-family: "Fasthand", cursive; */
+  border-radius: 15px;
+  color: white;
+  width: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2rem;
+}
+/* .content button:hover {
+  padding: 15px;
+  box-shadow: 10px 10px 5px black;
+} */

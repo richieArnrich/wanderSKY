@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+.footer {
+  /* background: linear-gradient(to top left, #e66465, #9198e5); */
+  padding-top: 20px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.footer-content {
+  text-align: left;
+  padding: 10px;
+  font-size: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.footer-content #socialIcon {
+  padding: 5px;
+  margin: 5px;
+  font-size: 20px;
+}
+
+.footer-content .subscribe label {
+  /* display: block; */
+  margin: 3px;
+}
+.footer-content .subscribe input {
+  /* display: block; */
+  margin-bottom: 3px;
+  width: auto;
+}
+.footer-content .subscribe button {
+  display: block;
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+}
+.footer-content .subscribe button:hover {
+  background-color: darkred;
+}
+
+.footer #copywrite {
+  padding: 5px;
+  font-size: 20px;
+}

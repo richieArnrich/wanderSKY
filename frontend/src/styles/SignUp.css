@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+.signup {
+  background-image: url("../images/signup-1.jpg");
+  background-size: cover;
+  height: 140vh;
+}
+
+.signup #paper {
+  padding: 30px 30px;
+  display: block;
+  width: 45rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  position: relative;
+  top: 10px;
+  background: linear-gradient(to top left, #b9645b, #f1e3c6);
+}
+
+.signup #caption {
+  font-family: "Poppins", sans-serif;
+}
+.signup #avatar {
+  display: inline-block;
+}
+
+.signup Button {
+  /* padding: 5px; */
+  margin-top: 3px;
+}
